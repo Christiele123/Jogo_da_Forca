@@ -30,6 +30,10 @@ int main() {
       while (getchar() != '\n');
       switch (opcao) {
     }
-    
+      switch (opcao) {
+        case '1':
+        tentativas = 3
+        char palavrasFacil[] = {"gato","mae","letra","casa","joia","pai","bola","copo","pino","pato"};
+        palavrasecreta = palavrasFacil[rand() % 10];
 }
 return 0;
